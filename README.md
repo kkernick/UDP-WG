@@ -12,7 +12,7 @@ There’s three primary ways to approach this repository:
 	2. Want to understand how WireGuard works? `wireguard.h` contains our WireGuard implementation, and all the cryptographic algorithms used by it are contained in `crypto.h`. We use both OpenSSL and Sodium for cryptography, allowing you to get a taste of how you might work with both libraries.
 	3. Want to understand how to make a network-enabled C++ application? `main.cpp` contains the code for the main application, with `shared.h` containing the functions needed for thread-safe input and output, and `network.h` containing the code for a threaded, Dynamic Network Thread. 
 2. Want to see these implementations working in action? `main` uses our implementations to allow peers to communicate across the network using UDP packets, alongside connecting to peers acting as WireGuard servers to securely communicate with peers while staying anonymous and avoiding eavesdroppers!
-3. Want to view the codebase without descending into the raw C++? A Doxygen site is available in the `docs` folder which provides rendered HTML for all the various namespaces, functions, and classes.
+3. Want to view the codebase without descending into the raw C++? A Doxygen site is available in the `docs` folder which provides rendered HTML for all the various namespaces, functions, and classes. A live version is available at https://kkernick.github.io/UDP-WG
 
 >[!tip]
 >Feeling overwhelmed? Start out with the application! There, you can get a feel on how the code actually comes together and understand the general flow of logic. When you then look into the code itself, or the Doxygen site, you’ll have a better appreciation of what the various parts are used for.
