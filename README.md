@@ -1,5 +1,8 @@
 # UDP-WG
 
+>[!warning]
+>The implementation of WireGuard within this repository is for **educational purposes only!** It should not be considered cryptographically secure. In fact, it [isn't](https://github.com/kkernick/UDP-WG/issues/1).
+
 This repository contains an emulated implementation of both the UDP network protocol, alongside the WireGuard VPN protocol, as a means to better understand not only these protocols in isolation, but how they might be used in practice. The intention of this repository’s creation is primarily as a learning aid to explore Virtual Private Networks through a heavily documented codebase outlining how WireGuard works.
 
 > [!warning] 
